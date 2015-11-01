@@ -24,10 +24,7 @@
     "express": ">=3",
     "gm": ">=1.2.0",
     "mime": ">=1.1.0",
-    "cutiecapt": "~0.1.0",
-    "phantomjs": "~1.9.18",
-    "jade": "~1.11.0",
-    "phantom": "~0.8.0",
+    "cutiecapt": "git://github.com/Qmerce/cutiecapt.git#master",
     "q": "~1.4.1",
     "aws-sdk": "~2.2.12"
   },
