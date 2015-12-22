@@ -1,0 +1,8 @@
+{
+    "nodePort": your-node-port,
+
+    "s3SecretAccessKey": your-s3-secret,
+    "s3AccessKeyId": your-s3-key,
+    "s3Bucket": your-s3-bucket,
+    "s3Region": your-s3-region
+}
