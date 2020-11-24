@@ -5,6 +5,7 @@ steps:
     env: ['NODE_ENV=production']
 
   - name: gcr.io/cloud-builders/docker
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/image-proxy:$TAG_NAME', '.']
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/image-proxy:$TAG_NAME', '-t', 'gcr.io/$PROJECT_ID/image-proxy:latest', '.']
 images:
   - gcr.io/$PROJECT_ID/image-proxy:$TAG_NAME
+  - gcr.io/$PROJECT_ID/image-proxy:$latest
